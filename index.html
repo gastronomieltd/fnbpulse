@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fnbPulse 360 | AI-Powered Restaurant Profit Intelligence</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="fnbPulse 360 is the AI-powered restaurant analyst that provides live sales & inventory insights, real-time recipe costing, and direct sync with Clover, Xero, and Google Drive.">
+  <meta name="keywords" content="restaurant intelligence, restaurant profit, clover pos, xero accounting, google drive, restaurant analytics, menu engineering, food cost control, reduce restaurant waste, fnbPulse 360">
+  <meta name="author" content="fnbPulse 360 Team">
+  <link rel="canonical" href="https://fnbpulse.com">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fnbpulse.com">
+  <meta property="og:title" content="fnbPulse 360 | Insights. Operations. Growth.">
+  <meta property="og:description" content="Connect your POS, accounting, inventory, and Google Drive to uncover hidden profits. Save up to £3,600/month with AI-driven insights.">
+  <meta property="og:image" content="https://fnbpulse.com/assets/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://fnbpulse.com">
+  <meta property="twitter:title" content="fnbPulse 360 | Restaurant Profit Intelligence">
+  <meta property="twitter:description" content="AI-driven profit optimization for smart restaurateurs. Connect POS, Google Drive, and Accounting in 5 minutes.">
+  <meta property="twitter:image" content="https://fnbpulse.com/assets/og-image.jpg">
+
+  <!-- Favicon Placeholder -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a2140'/%3E%3Cdefs%3E%3ClinearGradient id='f' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2300df82'/%3E%3Cstop offset='100%25' stop-color='%23ffffff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M 32 26 A 32 32 0 1 1 32 74' fill='none' stroke='url(%23f)' stroke-width='8' stroke-linecap='round'/%3E%3Cpath d='M 32 74 L 42 80 L 37 62 Z' fill='%23ffffff'/%3E%3Ctext x='50' y='57' font-family='sans-serif' font-size='16' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3E360%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. NAVIGATION HEADER
+       ========================================== -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo" id="header-logo">
+        <div class="fnb-logo-container">
+          <div class="fnb-text">
+            <span class="brand-fnb">fnb</span><span class="brand-pulse">Pulse</span>
+            <span class="brand-360-wrap">
+              <svg class="brand-360-ring" viewBox="0 0 50 50">
+                <path d="M 5.95 14 A 22 22 0 0 1 47 25" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" />
+                <path d="M 47 25 A 22 22 0 0 1 5.95 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+                <polygon points="2.95,30.8 8.55,34.5 3.35,37.5" fill="#ffffff" />
+              </svg>
+              <span class="brand-360">360</span>
+            </span>
+          </div>
+        </div>
+        <div class="logo-tagline">Insights. Operations. Growth.</div>
+      </a>
+      
+      <!-- Mobile Menu Toggle Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" id="mobile-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#problems" class="nav-link">Why fnbPulse 360</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#dashboard-showcase" class="nav-link">Product Tour</a></li>
+          <li><a href="#roi" class="nav-link">ROI Calculator</a></li>
+          <li><a href="#integrations" class="nav-link">Integrations</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li class="nav-mobile-only"><a href="https://app.fnbpulse.com" class="nav-link">Log In</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header CTA -->
+      <div class="header-cta">
+        <a href="https://app.fnbpulse.com" class="login-link">Log In</a>
+        <button class="btn btn-primary open-check-modal">Start Free Profit Health Check</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       2. HERO SECTION
+       ========================================== -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="badge-new">
+          <span class="badge-dot"></span> Insights. Operations. Growth.
+        </div>
+        <h1>Find hidden profit in your restaurant data.</h1>
+        <p>fnbPulse 360 connects your POS, accounting, inventory, and Google Drive to deliver live insights, current recipe costing, and real-time food cost control.</p>
+        
+        <div class="hero-btns">
+          <button class="btn btn-primary open-check-modal">Start Your Free Profit Health Check</button>
+          <a href="#dashboard-showcase" class="btn btn-secondary">Book a Demo</a>
+        </div>
+
+        <!-- Inline Trust Signal Integrations -->
+        <div class="hero-trust">
+          <span class="trust-label">Direct sync with:</span>
+          <div class="trust-badges">
+            <div class="trust-badge">
+              <span class="sync-indicator-dot"></span>
+              <span>Clover POS</span>
+            </div>
+            <div class="trust-badge">
+              <span class="sync-indicator-dot"></span>
+              <span>Xero Accounting</span>
+            </div>
+            <div class="trust-badge">
+              <span class="sync-indicator-dot"></span>
+              <span>Google Drive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual: Dashboard Mockup -->
+      <div class="hero-visual">
+        <div class="dashboard-mockup">
+          <!-- Mockup Header -->
+          <div class="mockup-header">
+            <div class="mockup-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mockup-title">fnbPulse 360 Analyst Core</div>
+            <div class="mockup-status">
+              <span class="status-dot"></span> Live Integration Mode
+            </div>
+          </div>
+
+          <!-- Mockup Workspace Grid -->
+          <div class="mockup-body">
+            <!-- Health Score Card -->
+            <div class="health-card">
+              <div class="health-info">
+                <span class="card-label">Restaurant Health Score</span>
+                <span class="health-rating">Very Strong</span>
+                <p class="health-meta">Optimized 4 days ago</p>
+              </div>
+              <div class="score-radial">
+                <svg viewBox="0 0 36 36" class="circular-chart green">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <path class="circle" stroke-dasharray="84, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                  <text x="18" y="20.35" class="percentage">84</text>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="mini-card highlight-glow">
+              <span class="card-label">Revenue</span>
+              <span class="mini-val">£12,450</span>
+              <span class="mini-change up">↑ 4.2% vs last week</span>
+            </div>
+
+            <div class="mini-card warning-glow">
+              <span class="card-label">Food Cost</span>
+              <span class="mini-val">31.2%</span>
+              <span class="mini-change warning">Target is 28.5%</span>
+            </div>
+
+            <div class="mini-card">
+              <span class="card-label">Gross Margin</span>
+              <span class="mini-val">68.8%</span>
+              <span class="mini-change safe">Healthy threshold</span>
+            </div>
+
+            <div class="mini-card danger-glow">
+              <span class="card-label">Waste</span>
+              <span class="mini-val">£420</span>
+              <span class="mini-change down">↓ 12% reduction</span>
+            </div>
+
+            <!-- AI Suggestion Box -->
+            <div class="ai-recommendation-box">
+              <div class="ai-box-title">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="var(--accent)"><path d="M12 2L2 22h20L12 2zm0 3.99L19.53 19H4.47L12 5.99zM13 16h-2v2h2v-2zm0-6h-2v4h2v-4z"/></svg>
+                <span>AI PROFIT ADVISOR</span>
+              </div>
+              <p class="ai-box-text">
+                Chicken supply costs increased by <strong>14%</strong> across your London Soho location. We recommend adjusting the pricing of your <em>Spicy Chicken Burger</em> or sourcing from vendor B. 
+              </p>
+              <div class="ai-impact">
+                <span>Estimated annual impact:</span>
+                <strong>+£8,600</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       3. THE PROBLEM SECTION
+       ========================================== -->
+  <section id="problems" class="problem-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Why restaurants lose profit</h2>
+        <p class="section-subtitle">Restaurants have more data than ever, but it is scattered across multiple systems. This friction drains margins without you realizing.</p>
+      </div>
+
+      <div class="problem-grid">
+        <!-- Problem Card 1 -->
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--highlight)"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          </div>
+          <h3>Rising Food Costs</h3>
+          <p>Supplier prices spike quietly. Without item-by-item auditing, your menu price stays frozen while margins disintegrate.</p>
+        </div>
+
+        <!-- Problem Card 2 -->
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--highlight)"><path d="M19.36 10.04L20.5 9l-1.42-1.42-1.04 1.14c-.95-.69-2.07-1.14-3.29-1.28V5h-2v2.44c-1.22.14-2.34.59-3.29 1.28L8.42 7.58 7 9l1.14 1.04c-.69.95-1.14 2.07-1.28 3.29H3v2h3.86c.14 1.22.59 2.34 1.28 3.29L7 19.76 8.42 21.18l1.04-1.14c.95.69 2.07 1.14 3.29 1.28V24h2v-2.68c1.22-.14 2.34-.59 3.29-1.28l1.04 1.14 1.42-1.42-1.14-1.04c.69-.95 1.14-2.07 1.28-3.29H24v-2h-3.86c-.14-1.22-.59-2.34-1.28-3.29zM14 16h-4v-2h4v2z"/></svg>
+          </div>
+          <h3>Hidden Waste</h3>
+          <p>Over-ordering or poor prep lines mean thousands of pounds literally thrown in the bin. Spotting waste usually happens too late.</p>
+        </div>
+
+        <!-- Problem Card 3 -->
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--highlight)"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z"/></svg>
+          </div>
+          <h3>Manual Spreadsheets</h3>
+          <p>Spending hours copying data from Clover into spreadsheets. By the time your Excel sheet is updated, the numbers are already historic.</p>
+        </div>
+
+        <!-- Problem Card 4 -->
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--highlight)"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+          </div>
+          <h3>Blind Profitability</h3>
+          <p>Knowing your bank balance is not the same as knowing your real-time profit. Most owners wait for accountant reports 30 days after month-end.</p>
+        </div>
+
+        <!-- Problem Card 5 -->
+        <div class="problem-card">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--highlight)"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.71L11 12.41V7h2v4.59l3.7 3.7-1.41 1.42z"/></svg>
+          </div>
+          <h3>Slow Decision Making</h3>
+          <p>Without automated alerts, you notice menu under-pricing only after two consecutive quarters of negative cashflow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       4. THE SOLUTION PIPELINE SECTION
+       ========================================== -->
+  <section class="solution-pipeline">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">How fnbPulse 360 works</h2>
+        <p class="section-subtitle font-sans">We orchestrate your scattered tech stack into an elegant, automatic intelligence stream.</p>
+      </div>
+
+      <div class="pipeline-flow">
+        <!-- Input Layer -->
+        <div class="pipeline-node node-inputs">
+          <h3>Your Systems</h3>
+          <div class="sub-nodes">
+            <div class="sub-node">
+              <span class="pulse-indicator"></span>
+              <strong>POS Data</strong> (Clover, etc.)
+            </div>
+            <div class="sub-node">
+              <span class="pulse-indicator"></span>
+              <strong>Accounting</strong> (Xero, etc.)
+            </div>
+            <div class="sub-node">
+              <span class="pulse-indicator"></span>
+              <strong>Inventory</strong> (Invoices & waste)
+            </div>
+          </div>
+        </div>
+
+        <!-- Connector line -->
+        <div class="pipeline-connector">
+          <span class="animated-pulse"></span>
+        </div>
+
+        <!-- Engine Layer -->
+        <div class="pipeline-node node-engine">
+          <div class="engine-halo"></div>
+          <h3>fnbPulse 360 Engine</h3>
+          <p>AI Profit Intelligence & Data Fusion</p>
+          <div class="engine-metrics-stream">
+            <span>Reconciling...</span>
+            <span>Auditing prices...</span>
+          </div>
+        </div>
+
+        <!-- Connector line -->
+        <div class="pipeline-connector">
+          <span class="animated-pulse" style="animation-delay: 1.5s;"></span>
+        </div>
+
+        <!-- Output Layer -->
+        <div class="pipeline-node node-outputs">
+          <h3>Daily Results</h3>
+          <div class="sub-nodes">
+            <div class="sub-node accent-border">
+              <strong>Smart Alerts</strong> (Chicken +14%)
+            </div>
+            <div class="sub-node accent-border">
+              <strong>Menu Optimization</strong>
+            </div>
+            <div class="sub-node success-gold">
+              <strong>Higher Profit Margins</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. FEATURES GRID SECTION
+       ========================================== -->
+  <section id="features" class="features-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Designed for modern restaurant operators</h2>
+        <p class="section-subtitle">Real-time automation that does the heavy analytical lifting for your finance and operations managers.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Card 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--accent)"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Restaurant Pulse Score</h3>
+          <p>Understand the health of your restaurant every day with a single combined index tracking sales, food costs, and shift efficiency.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--accent)"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <h3>AI Profit Advisor</h3>
+          <p>Ask questions and receive immediate recommendations based on your real business data. No SQL knowledge or Excel formulas required.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--accent)"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+          </div>
+          <h3>Food Cost Intelligence</h3>
+          <p>Monitor margins and detect supplier cost increases automatically. We flags invoice discrepancies against your PO agreements instantly.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--accent)"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          </div>
+          <h3>Inventory Optimisation</h3>
+          <p>Reduce waste and improve purchasing by predicting demand based on live POS trends, seasonal events, and custom weather patterns.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--accent)"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+          </div>
+          <h3>Menu Profitability</h3>
+          <p>Know exactly which items create the most profit. Discover "Stars" (high profit, high volume) and prune "Dogs" (low profit, low volume).</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="var(--accent)"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2" fill="none"/><path d="M14 2v6h6" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Weekly AI Reports</h3>
+          <p>Receive automated, jargon-free business insights directly to your inbox every Monday morning. Ready to share with partners and key stakeholders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. PRODUCT DASHBOARD SHOWCASE (INTERACTIVE)
+       ========================================== -->
+  <section id="dashboard-showcase" class="showcase-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge-label">Interactive Tour</span>
+        <h2 class="section-title">Step inside fnbPulse 360</h2>
+        <p class="section-subtitle">Take control of a live mock dashboard. Toggle views and chat with your AI Profit Advisor below.</p>
+      </div>
+
+      <div class="showcase-container">
+        <!-- Interactive Navigation Sidebar -->
+        <div class="showcase-sidebar">
+          <div class="sidebar-user">
+            <div class="avatar">TC</div>
+            <div>
+              <span class="username">The Soho Catch</span>
+              <span class="user-role">Primary Site</span>
+            </div>
+          </div>
+          
+          <nav class="sidebar-menu">
+            <button class="sidebar-btn active" data-tab="pulse">
+              <span class="menu-dot"></span> Daily Pulse Score
+            </button>
+            <button class="sidebar-btn" data-tab="cost-alerts">
+              <span class="menu-dot warning-dot"></span> Food Cost Alerts
+              <span class="sidebar-badge-alert">2</span>
+            </button>
+            <button class="sidebar-btn" data-tab="menu-matrix">
+              <span class="menu-dot"></span> Menu Profitability
+            </button>
+            <button class="sidebar-btn" data-tab="ai-chat">
+              <span class="menu-dot chat-dot"></span> AI Advisor Chat
+            </button>
+          </nav>
+
+          <div class="sidebar-sync">
+            <div class="sync-status">
+              <span class="indicator-glow"></span> Clover & Xero Synced
+            </div>
+            <span class="sync-time">Just now</span>
+          </div>
+        </div>
+
+        <!-- Main Showcase Workspace -->
+        <div class="showcase-workspace">
+          
+          <!-- TAB 1: Pulse Score -->
+          <div class="workspace-tab active" id="tab-pulse">
+            <div class="tab-header">
+              <h2>Daily Profit Health Pulse</h2>
+              <span class="date-stamp">Today, July 6, 2026</span>
+            </div>
+
+            <div class="pulse-summary-grid">
+              <div class="pulse-score-display">
+                <span class="metric-label">Pulse Score</span>
+                <span class="pulse-number">84<span class="out-of">/100</span></span>
+                <p class="pulse-desc">Your restaurant is operating in the **top 12%** of profit efficiency in London.</p>
+              </div>
+
+              <div class="pulse-kpis">
+                <div class="kpi-mini-row">
+                  <div>
+                    <span class="kpi-title">Prime Cost</span>
+                    <span class="kpi-value">58.4%</span>
+                  </div>
+                  <span class="kpi-tag success">Optimal</span>
+                </div>
+                <div class="kpi-mini-row">
+                  <div>
+                    <span class="kpi-title">Labor Margin</span>
+                    <span class="kpi-value">27.2%</span>
+                  </div>
+                  <span class="kpi-tag success">Optimal</span>
+                </div>
+                <div class="kpi-mini-row">
+                  <div>
+                    <span class="kpi-title">Uncategorized Spend</span>
+                    <span class="kpi-value">£189</span>
+                  </div>
+                  <span class="kpi-tag warning">Verify</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Beautiful Opportunity Visualizer Chart -->
+            <div class="chart-container">
+              <span class="chart-title">Weekly Profit Leak Analysis</span>
+              <div class="bar-chart">
+                <div class="chart-bar" style="--height: 42%;" data-day="Mon" data-value="£240 leaked">
+                  <div class="bar-fill warning-bg"></div>
+                </div>
+                <div class="chart-bar" style="--height: 68%;" data-day="Tue" data-value="£380 leaked">
+                  <div class="bar-fill warning-bg"></div>
+                </div>
+                <div class="chart-bar" style="--height: 31%;" data-day="Wed" data-value="£180 leaked">
+                  <div class="bar-fill accent-bg"></div>
+                </div>
+                <div class="chart-bar" style="--height: 95%;" data-day="Thu" data-value="£520 leaked">
+                  <div class="bar-fill danger-bg"></div>
+                </div>
+                <div class="chart-bar" style="--height: 22%;" data-day="Fri" data-value="£120 leaked">
+                  <div class="bar-fill accent-bg"></div>
+                </div>
+                <div class="chart-bar" style="--height: 15%;" data-day="Sat" data-value="£80 leaked">
+                  <div class="bar-fill accent-bg"></div>
+                </div>
+                <div class="chart-bar" style="--height: 10%;" data-day="Sun" data-value="£50 leaked">
+                  <div class="bar-fill accent-bg"></div>
+                </div>
+              </div>
+              <div class="chart-legend">
+                <span>Green: Leak Resolved</span>
+                <span>Amber/Red: Attention Needed</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: Food Cost Alerts -->
+          <div class="workspace-tab" id="tab-cost-alerts">
+            <div class="tab-header">
+              <h2>Invoice Cost Spike Alerts</h2>
+              <span class="alert-indicator-pill">2 Actionable Issues</span>
+            </div>
+
+            <div class="alerts-stack">
+              <!-- Alert 1 -->
+              <div class="alert-item unresolved" id="alert-chicken">
+                <div class="alert-badge-danger">CRITICAL SPIKE</div>
+                <div class="alert-details">
+                  <h3>Poultry Supplier Overcharge (London Foods Ltd)</h3>
+                  <p>Invoiced unit rate for *Fresh Chicken Breast* increased from <strong>£5.40/kg</strong> to <strong>£6.15/kg</strong> (+13.8%). Your agreed contract contract price is £5.50/kg.</p>
+                  <div class="alert-actions-row">
+                    <span class="leak-impact">Annual impact: £4,200 loss</span>
+                    <button class="btn-action-resolve" onclick="resolveAlert('alert-chicken', 4200)">Auto-Draft Email dispute</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Alert 2 -->
+              <div class="alert-item unresolved" id="alert-oil">
+                <div class="alert-badge-warning">WARNING</div>
+                <div class="alert-details">
+                  <h3>Cooking Oil Consumption Excess</h3>
+                  <p>Soho Kitchen used <strong>120L</strong> of frying oil this week vs average 85L. No corresponding increase in fried item sales detected on Clover POS (+41.1% discrepancy).</p>
+                  <div class="alert-actions-row">
+                    <span class="leak-impact">Annual impact: £1,800 loss</span>
+                    <button class="btn-action-resolve" onclick="resolveAlert('alert-oil', 1800)">Flag for Head Chef</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: Menu Profitability -->
+          <div class="workspace-tab" id="tab-menu-matrix">
+            <div class="tab-header">
+              <h2>Menu Margin Engineering Matrix</h2>
+              <span class="date-stamp">Calculated across 4,200 POS transactions</span>
+            </div>
+
+            <p class="tab-intro">fnbPulse 360 cross-references real-time Clover sales volume against raw ingredient inventory prices to categorize every menu item automatically.</p>
+
+            <div class="menu-matrix-grid">
+              <!-- High Vol / High Margin -->
+              <div class="matrix-quadrant quad-star">
+                <div class="quad-header">
+                  <h3>STARS</h3>
+                  <span class="quad-desc">High Vol, High Margin</span>
+                </div>
+                <ul class="quad-list">
+                  <li><strong>Truffle Pasta</strong> (74% Margin / 420 Sold)</li>
+                  <li><strong>House Negroni</strong> (86% Margin / 890 Sold)</li>
+                  <li><strong>Salt & Pepper Calamari</strong> (71% Margin / 310 Sold)</li>
+                </ul>
+              </div>
+
+              <!-- High Vol / Low Margin -->
+              <div class="matrix-quadrant quad-plow">
+                <div class="quad-header">
+                  <h3>PLOWHORSES</h3>
+                  <span class="quad-desc">High Vol, Low Margin</span>
+                </div>
+                <ul class="quad-list">
+                  <li><strong>Soho Beef Burger</strong> (48% Margin / 1,200 Sold)</li>
+                  <li><strong>Fresh Sourdough</strong> (32% Margin / 940 Sold)</li>
+                  <li class="action-alert-item">
+                    <span><strong>Ribeye Steak</strong> (38% Margin)</span>
+                    <button class="btn-matrix-action open-check-modal">Optimize Price (+3%)</button>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Low Vol / High Margin -->
+              <div class="matrix-quadrant quad-puzzle">
+                <div class="quad-header">
+                  <h3>PUZZLES</h3>
+                  <span class="quad-desc">Low Vol, High Margin</span>
+                </div>
+                <ul class="quad-list">
+                  <li><strong>Pan-Seared Halibut</strong> (78% Margin / 45 Sold)</li>
+                  <li><strong>Burrata Salad</strong> (75% Margin / 62 Sold)</li>
+                </ul>
+              </div>
+
+              <!-- Low Vol / Low Margin -->
+              <div class="matrix-quadrant quad-dog">
+                <div class="quad-header">
+                  <h3>DOGS</h3>
+                  <span class="quad-desc">Low Vol, Low Margin</span>
+                </div>
+                <ul class="quad-list">
+                  <li><strong>Vegan Cheese Board</strong> (21% Margin / 12 Sold)</li>
+                  <li><strong>Mocktail Sunset</strong> (30% Margin / 18 Sold)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 4: AI Advisor Chat -->
+          <div class="workspace-tab" id="tab-ai-chat">
+            <div class="tab-header">
+              <h2>AI Restaurant Analyst</h2>
+              <span class="chat-status"><span class="chat-dot"></span> Online - Ready to analyze</span>
+            </div>
+
+            <div class="chat-window">
+              <div class="chat-messages" id="chat-messages">
+                <div class="message system-msg">
+                  <div class="msg-sender">fnbPulse 360 AI Advisor</div>
+                  <div class="msg-content">
+                    Hello! I'm your fnbPulse 360 intelligence assistant. I scan your Xero invoices, Clover receipts, Google Drive records, and inventory records hourly. What would you like to investigate today?
+                  </div>
+                </div>
+              </div>
+
+              <!-- Prompt chips for user click action -->
+              <div class="chat-prompt-chips">
+                <button class="prompt-chip" data-question="Why did my food cost spike?">
+                  "Why did my food cost spike?"
+                </button>
+                <button class="prompt-chip" data-question="Which menu items are underpriced?">
+                  "Which menu items are underpriced?"
+                </button>
+                <button class="prompt-chip" data-question="Find waste opportunities from yesterday.">
+                  "Find waste opportunities from yesterday."
+                </button>
+              </div>
+
+              <div class="chat-input-area">
+                <input type="text" id="chat-user-input" placeholder="Ask your restaurant data anything (e.g. 'What is my best margin item?')...">
+                <button id="chat-send-btn" class="btn btn-primary">Send</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       7. ROI CALCULATOR SECTION
+       ========================================== -->
+  <section id="roi" class="roi-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="badge-label">Interactive Calculator</span>
+        <h2 class="section-title">Small improvements create big returns</h2>
+        <p class="section-subtitle">Use our estimator tool to calculate exactly what fnbPulse 360 could uncover across your site based on standard operator benchmarks.</p>
+      </div>
+
+      <div class="roi-calculator-layout">
+        <!-- Calculator Inputs -->
+        <div class="calc-inputs-card">
+          <h3>Estimate Your Return</h3>
+          
+          <div class="input-group">
+            <div class="input-labels">
+              <label for="monthly-revenue">Monthly Restaurant Revenue</label>
+              <span class="slider-value" id="revenue-val">£50,000</span>
+            </div>
+            <input type="range" id="monthly-revenue" min="10000" max="250000" step="5000" value="50000" class="premium-slider">
+            <div class="slider-ticks">
+              <span>£10k</span>
+              <span>£100k</span>
+              <span>£250k</span>
+            </div>
+          </div>
+
+          <div class="input-group">
+            <div class="input-labels">
+              <label for="food-cost-pct">Current Food Cost Percentage</label>
+              <span class="slider-value" id="food-cost-val">34%</span>
+            </div>
+            <input type="range" id="food-cost-pct" min="20" max="50" step="1" value="34" class="premium-slider">
+            <div class="slider-ticks">
+              <span>20%</span>
+              <span>35%</span>
+              <span>50%</span>
+            </div>
+          </div>
+
+          <div class="calc-benchmark-note">
+            <p>Our benchmarks are modeled directly from average performance profiles of Clover & Xero integrated sites over 12 months.</p>
+          </div>
+        </div>
+
+        <!-- Calculator Outputs -->
+        <div class="calc-outputs-card">
+          <h4>YOUR RECOVERABLE PROFIT</h4>
+          
+          <div class="output-headline">
+            <span class="total-saved-number" id="calc-total-saved">£2,156</span>
+            <span class="per-month">/ month potential</span>
+          </div>
+
+          <div class="output-breakdown">
+            <div class="breakdown-row">
+              <div class="row-label">
+                <strong>Waste Reduction</strong> (1.8% of Revenue)
+              </div>
+              <span class="row-value" id="calc-waste">£900 /mo</span>
+            </div>
+
+            <div class="breakdown-row">
+              <div class="row-label">
+                <strong>Supplier Overcharges Checked</strong> (2.4% of Food Spend)
+              </div>
+              <span class="row-value" id="calc-supplier">£408 /mo</span>
+            </div>
+
+            <div class="breakdown-row">
+              <div class="row-label">
+                <strong>Menu Optimisation Upside</strong> (1.7% menu margin tuning)
+              </div>
+              <span class="row-value" id="calc-menu">£848 /mo</span>
+            </div>
+          </div>
+
+          <div class="calc-cta-block">
+            <p>fnbPulse 360 costs just <strong>£149/mo</strong>. Your estimated return on investment is <strong>14.5x</strong>.</p>
+            <button class="btn btn-primary w-full open-check-modal">Claim This Profit Opportunity</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       8. INTEGRATIONS SECTION
+       ========================================== -->
+  <section id="integrations" class="integrations-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Fully integrated in 5 minutes</h2>
+        <p class="section-subtitle">fnbPulse 360 syncs with your restaurant stack securely. No coding, no consultants, no custom server setups.</p>
+      </div>
+
+      <div class="integrations-layout">
+        <!-- Connected Today -->
+        <div class="integration-group">
+          <h3>CONNECTED TODAY</h3>
+          <div class="integration-grid">
+            <div class="integration-card connected">
+              <div class="logo-circle clover-bg">☘</div>
+              <div>
+                <strong>Clover POS</strong>
+                <span class="status-badge">Official Partner</span>
+              </div>
+            </div>
+            <div class="integration-card connected">
+              <div class="logo-circle xero-bg">X</div>
+              <div>
+                <strong>Xero Accounting</strong>
+                <span class="status-badge">Official Partner</span>
+              </div>
+            </div>
+            <div class="integration-card connected">
+              <div class="logo-circle drive-bg" style="background: #10335e; color: #ffeb3b; font-weight: bold; border: 1px solid rgba(255, 255, 255, 0.1);">▲</div>
+              <div>
+                <strong>Google Drive</strong>
+                <span class="status-badge">Official Partner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coming Soon -->
+        <div class="integration-group">
+          <h3>COMING SOON</h3>
+          <div class="integration-grid cols-4">
+            <div class="integration-card coming-soon">
+              <div class="logo-circle text-muted">▪</div>
+              <div><strong>Square</strong></div>
+            </div>
+            <div class="integration-card coming-soon">
+              <div class="logo-circle text-muted">⚡</div>
+              <div><strong>Lightspeed</strong></div>
+            </div>
+            <div class="integration-card coming-soon">
+              <div class="logo-circle text-muted">🍞</div>
+              <div><strong>Toast</strong></div>
+            </div>
+            <div class="integration-card coming-soon">
+              <div class="logo-circle text-muted">Q</div>
+              <div><strong>QuickBooks</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       9. PRICING SECTION
+       ========================================== -->
+  <section id="pricing" class="pricing-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2 class="section-title">Simple, flat-rate pricing</h2>
+        <p class="section-subtitle">Select the tier that matches your restaurant scale. No hidden onboarding fees or hardware required.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Tier 1: Starter -->
+        <div class="pricing-card">
+          <div class="card-head">
+            <h3>Starter</h3>
+            <p class="tier-desc">Perfect for single independent restaurants, cafes, and bars.</p>
+            <div class="price-block">
+              <span class="currency">£</span>
+              <span class="amount">149</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="features-list">
+              <li>Clover POS Live Integration</li>
+              <li>Xero Ledger Sync</li>
+              <li>Daily Restaurant Pulse Score</li>
+              <li>Basic AI Alerts</li>
+              <li>1 Administrative User</li>
+              <li class="disabled">Weekly AI Reports</li>
+              <li class="disabled">Direct Supplier Contract Verification</li>
+            </ul>
+            <button class="btn btn-secondary w-full open-check-modal">Start Free Trial</button>
+          </div>
+        </div>
+
+        <!-- Tier 2: Growth (Popular) -->
+        <div class="pricing-card popular">
+          <div class="popular-badge">MOST POPULAR</div>
+          <div class="card-head">
+            <h3>Growth</h3>
+            <p class="tier-desc">Designed for high-volume sites and ambitious restaurant groups.</p>
+            <div class="price-block">
+              <span class="currency">£</span>
+              <span class="amount">299</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="features-list">
+              <li><strong>All Starter Features Included</strong></li>
+              <li>Clover & Xero Hourly Rec</li>
+              <li><strong>Full AI Profit Advisor Access</strong></li>
+              <li>Food Cost Overcharge Audits</li>
+              <li>Menu Profitability Heatmaps</li>
+              <li><strong>Weekly Automated AI Reports</strong></li>
+              <li>Unlimited Dashboard Users</li>
+              <li>Dedicated Support Representative</li>
+            </ul>
+            <button class="btn btn-primary w-full open-check-modal">Start Growth Trial</button>
+          </div>
+        </div>
+
+        <!-- Tier 3: Enterprise -->
+        <div class="pricing-card">
+          <div class="card-head">
+            <h3>Enterprise</h3>
+            <p class="tier-desc">For multi-unit restaurant groups, franchises, and pub networks.</p>
+            <div class="price-block">
+              <span class="amount" style="font-size: 40px;">Custom</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul class="features-list">
+              <li><strong>Multi-Location Group Consolidation</strong></li>
+              <li>Custom Legacy POS Integrations</li>
+              <li>Custom API Access & Webhooks</li>
+              <li>Dedicated AI Model Tuning</li>
+              <li>Quarterly Profit Consultant Audits</li>
+              <li>SLA-Backed Enterprise Support</li>
+              <li>Custom Contract Billing</li>
+            </ul>
+            <button class="btn btn-secondary w-full open-check-modal">Contact Enterprise Sales</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       10. FINAL CALL TO ACTION
+       ========================================== -->
+  <section class="final-cta-section">
+    <div class="cta-inner-container">
+      <h2>Know your numbers. Improve your margins. Grow your restaurant.</h2>
+      <p>Join over 350+ restaurateurs who sleep better knowing fnbPulse AI is scanning invoices and receipts for profit opportunities every day.</p>
+      <div class="cta-actions">
+        <button class="btn btn-primary btn-large open-check-modal">Start Your Free Profit Health Check</button>
+        <span class="cta-guarantee">No credit card required. 5-minute setup.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       11. FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <div class="fnb-logo-container">
+            <div class="fnb-text">
+              <span class="brand-fnb">fnb</span><span class="brand-pulse">Pulse</span>
+              <span class="brand-360-wrap">
+                <svg class="brand-360-ring" viewBox="0 0 50 50">
+                  <path d="M 5.95 14 A 22 22 0 0 1 47 25" fill="none" stroke="#00E676" stroke-width="3" stroke-linecap="round" />
+                  <path d="M 47 25 A 22 22 0 0 1 5.95 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+                  <polygon points="2.95,30.8 8.55,34.5 3.35,37.5" fill="#ffffff" />
+                </svg>
+                <span class="brand-360">360</span>
+              </span>
+            </div>
+          </div>
+          <div class="logo-tagline">Insights. Operations. Growth.</div>
+        </a>
+        <p style="margin-top: 15px;">The AI-powered restaurant analyst that helps operators discover profit opportunities every day.</p>
+        <p class="footer-copyright">&copy; 2026 fnbPulse 360 Ltd. All rights reserved.</p>
+      </div>
+      
+      <div class="footer-links">
+        <div>
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#problems">Why fnbPulse 360</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#dashboard-showcase">Interactive Tour</a></li>
+            <li><a href="#roi">ROI Calculator</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Security & Compliance</a></li>
+            <li><a href="#">Press Kit</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookies Settings</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==========================================
+       12. INTERACTIVE MODAL: PROFIT HEALTH CHECK
+       ========================================== -->
+  <div class="modal-overlay" id="check-modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close modal">&times;</button>
+      
+      <!-- Step progress tracker -->
+      <div class="modal-progress">
+        <div class="progress-step active" id="prog-1">1</div>
+        <div class="progress-line"></div>
+        <div class="progress-step" id="prog-2">2</div>
+        <div class="progress-line"></div>
+        <div class="progress-step" id="prog-3">3</div>
+      </div>
+
+      <!-- STEP 1: General details -->
+      <div class="modal-step-pane active" id="step-pane-1">
+        <h2>Tell us about your restaurant</h2>
+        <p class="modal-intro-text">We'll use standard Clover & Xero benchmarks to draft your free instant profit leak estimation.</p>
+        
+        <form id="health-form-1">
+          <div class="form-group">
+            <label for="restaurant-name">Restaurant or Group Name</label>
+            <input type="text" id="restaurant-name" placeholder="e.g. Soho Steakhouse" required>
+          </div>
+          <div class="form-group">
+            <label for="restaurant-city">Location / City</label>
+            <input type="text" id="restaurant-city" placeholder="e.g. London" required>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary w-full">Continue to Integrations &rarr;</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- STEP 2: POS Integrations Selection -->
+      <div class="modal-step-pane" id="step-pane-2">
+        <h2>Select your technology stack</h2>
+        <p class="modal-intro-text">Which POS and accounting systems do you use to capture sales and expense data?</p>
+        
+        <form id="health-form-2">
+          <div class="tech-select-grid">
+            <label class="tech-option">
+              <input type="checkbox" name="tech-pos" value="clover" checked>
+              <span class="tech-box">
+                <span class="tech-icon clover-color">☘</span>
+                <span class="tech-name">Clover POS</span>
+              </span>
+            </label>
+            <label class="tech-option">
+              <input type="checkbox" name="tech-acc" value="xero" checked>
+              <span class="tech-box">
+                <span class="tech-icon xero-color">X</span>
+                <span class="tech-name">Xero Ledger</span>
+              </span>
+            </label>
+            <label class="tech-option">
+              <input type="checkbox" name="tech-pos" value="square">
+              <span class="tech-box">
+                <span class="tech-icon">▪</span>
+                <span class="tech-name">Square POS</span>
+              </span>
+            </label>
+            <label class="tech-option">
+              <input type="checkbox" name="tech-pos" value="toast">
+              <span class="tech-box">
+                <span class="tech-icon">🍞</span>
+                <span class="tech-name">Toast POS</span>
+              </span>
+            </label>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="back-to-1">&larr; Back</button>
+            <button type="submit" class="btn btn-primary">Generate My Report &rarr;</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- STEP 3: Report results -->
+      <div class="modal-step-pane" id="step-pane-3">
+        <div class="success-header">
+          <div class="success-icon-badge">✓</div>
+          <h2>Your Profit Health Audit Ready!</h2>
+          <p class="modal-success-sub">Here is the simulated daily optimization potential for <span id="report-res-name">Soho Steakhouse</span> in London.</p>
+        </div>
+
+        <div class="report-dashboard-box">
+          <div class="report-score-row">
+            <div>
+              <span class="report-sub-label">Estimated Health Score</span>
+              <strong class="report-score-number" style="color: var(--highlight);">68/100</strong>
+            </div>
+            <span class="health-alert-badge">Unoptimized Leaks Detected</span>
+          </div>
+
+          <div class="report-breakdowns">
+            <div class="report-item-row">
+              <span>Potential monthly savings:</span>
+              <strong id="report-savings-amount">£1,840</strong>
+            </div>
+            <p class="report-narrative" id="report-narrative-text">Based on standard benchmarks, cafes in London connected to Clover see immediate food cost spikes of 3-5% that fnbPulse 360 AI flags instantly. We estimate you could recover £1,840 monthly.</p>
+          </div>
+        </div>
+
+        <div class="modal-footer report-actions">
+          <button type="button" class="btn btn-secondary" id="restart-modal-btn">Restart Check</button>
+          <button type="button" class="btn btn-primary" id="claim-report-btn">Connect Real Clover & Xero</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JavaScript file -->
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
